@@ -1,86 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:  sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+NO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-body, html{
-    width: 100%;
-    height: 100%;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #d6f9ff;
 }
 
-main{
-    margin: 30px 8px;
-    border-radius: 5px;
-    color: wheat;
+main {
+    padding-bottom: 20px;
 }
 
-.hero{
-    background: linear-gradient(#450301, #EA0030, #450301);
+.hero {
+  background: linear-gradient(#450301, #ea0030, #450301);
+  margin: 30px 8px;
+  border-radius: 5px;
+  color: wheat;
 }
 
-.bg-dark{
-    background-color: rgba(0, 0, 0, 0.5);
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-#title{
-    text-align: center;
-    padding: 20px 0 15px;
-    font-size: 2.5rem;
+#title {
+  text-align: center;
+  padding: 20px 0 15px;
+  font-size: 2.5rem;
 }
 
-#subTitle{
-    text-align: center;
-    margin-bottom: 5px;
-    letter-spacing: 1px;
+#subTitle {
+  text-align: center;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
 }
 
-#img-div{
-    margin: 5px 0;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 30px 0;
+#img-div {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 30px 0;
 }
 
-#image{
-    max-width: 80%;
-    border-radius: 5px;
-    padding-bottom: 25px;
+#image {
+  max-width: 100%;
+  border-radius: 5px;
+  padding-bottom: 25px;
 }
 
-#img-caption{
-    /* max-width: 70%; */
-    margin: 0 20px;
-    text-align: center;
-    line-height: 20px;
+#img-caption {
+  /* max-width: 70%; */
+  margin: 0 20px;
+  text-align: center;
+  line-height: 20px;
 }
 
 /* time line of allama iqbal */
 
-#tribute-info{
-    width: 60%;
-    margin: 50px auto;
-    background-color: #EEEEEE;
-    color: black;
-    padding: 30px;
+#tribute-info {
+  width: 60%;
+  margin: 50px auto;
+  color: black;
+  padding: 30px;
+  min-width: 90%;
 }
 
-#infoHeading{
+#infoHeading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Playwrite NO", cursive;
+}
+
+p {
+  margin: 15px 0 8px 50px;
+  font-family: "Playwrite DE Grund", cursive;
+  text-decoration: underline;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+ul li {
+  margin: 5px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Tribute Link */
+#link-div{
     text-align: center;
-    margin-bottom: 50px;
+    color: rgb(48, 48, 48);
+    margin: auto 5px;
 }
 
-p{
-margin: 15px 0 8px 50px;
+#link-heading{
+    
+  font-family: "Poppins", sans-serif;
 }
 
-ul{
-    margin-left: 80px;
-}
-
-ul li{
-    margin: 5px 0;
+#tribute-link{
+    /* text-align: center; */
+    color: #6287ff;
+    font-family: "Poppins", sans-serif;
 }
